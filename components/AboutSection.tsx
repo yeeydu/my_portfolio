@@ -1,23 +1,29 @@
 import React from "react";
 import Image from "next/image";
 
+//Level 1-3 begginer to advanced
 const skills = [
   { skill: "HTML", level: 3 },
   { skill: "CSS", level: 3 },
   { skill: "SQL", level: 2 },
+  { skill: "MySQL", level: 2 },
   { skill: "ReactJS", level: 3 },
   { skill: "NextJS", level: 2 },
   { skill: "Laravel", level: 3 },
+  { skill: "JSON", level: 3 },
   { skill: "Bootstrap", level: 2 },
+  { skill: "Typescript", level: 2 },
   { skill: "Github", level: 2 },
   { skill: "Tailwind", level: 2 },
   { skill: "WordPress", level: 3 },
   { skill: "React Native", level: 2 },
+  { skill: "REST", level: 2 },
   { skill: ".Net", level: 1 },
   { skill: "C#", level: 1 },
   { skill: "PHP", level: 2 },
   { skill: "Javascript", level: 2 },
   { skill: "Azure", level: 1 },
+  { skill: "Java", level: 1 },
   { skill: "Android Studio", level: 1 },
 ];
 

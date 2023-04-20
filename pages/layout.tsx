@@ -4,8 +4,8 @@ import Head from "./head";
 
 export default function Layout({ children }: any) {
   return (
-    <div className="dark:bg-stone-900 ">
-      <Head/>
+    <div >
+      <Head />
       <Navbar />
       <main>{children}</main>
       <Footer />

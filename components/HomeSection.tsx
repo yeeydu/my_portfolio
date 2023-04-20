@@ -15,6 +15,7 @@ export default function HomeSection() {
               alt={""}
               width={200}
               height={200}
+              priority
               className="rounded-e-full shadow-2xl hover:rounded-full hover:shadow-teal-600 hover:-translate-y-1 md:hover:translate-x-6 hover:scale-106 duration-500 hover:animate-pulse"
             />
           </div>

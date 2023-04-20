@@ -10,8 +10,15 @@ const projects = [
     name: "My Portfolio",
     description: "This is my recent project; my own portfolio created with Next.js, Tailwind in  Vercel platform",
     image: "/yeeyson-portfolio.png",
-    github: "https://github.com/yeeydu/my-portfolio",
-    link: "https://projeto.com",
+    github: "https://github.com/yeeydu/my_portfolio",
+    link: "https://yeeysonduarte-portfolio.vercel.app/",
+  },
+  {
+    name: "Andre Cristina",
+    description: "A gardener in Algarve with a list of services for the community with over 35 years of experience.",
+    image: "/andre.jpg",
+    github: "https://github.com/yeeydu",
+    link: "https://andrecristina.com/",
   },
   {
     name: "Email and SMS Manager",
@@ -23,7 +30,7 @@ const projects = [
   {
     name: "My Course Final Project",
     description:
-      "This was my web & mobile course final project, it was made by my team. This was a PHP, Bootstrap and Javascript made. Unfortunately the source code is private on github.",
+      "This was my web & mobile course final project, it was a team work. This was a PHP, Bootstrap and Javascript made. Unfortunately the source code is private on github.",
     image: "/diogopinto.jpg",
     github: "https://github.com/yeeydu/",
     link: "https://www.diogopinto.pt/",
