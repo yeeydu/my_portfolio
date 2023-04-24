@@ -63,7 +63,7 @@ export default function ProjectSection() {
                   </div>
                   <div className="md:w-1/2 mt-12">
                     <h1 className="text-2xl font-bold mb-6">{item.name}</h1>
-                    <p className="text-lg leading-7 mb-4 text-neutral-800 dark:text-neutral-100">
+                    <p className="text-lg leading-7 mb-4 dark:text-neutral-500">
                       {item.description}
                     </p>
                     <div className="flex flex-row space-x-2 align-bottom">
