@@ -67,9 +67,9 @@ const Navbar = () => {
         </div>
         <div>
           <div
-            className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
-              navbar ? "block" : "hidden"
-            }`}
+            className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0
+            ${ navbar ? "block" : "hidden" } 
+            `}
           >
             <div className="md:flex md:space-x-6 space-y-8 md:space-y-0">
               {NavItems.map((item, id) => {
@@ -85,12 +85,12 @@ const Navbar = () => {
                     smooth={true}
                     offset={-100}
                     duration={500}
-                    onClick={() => setNavabar(!navbar)}
+                    onClick={() => setNavabar(!navbar)} 
                   >
                     {item.label}
                   </Link>
                 );
-              })}
+              })} 
               {currentTheme === "dark" ? (
                 <button
                   onClick={() => setTheme("light")}

@@ -49,7 +49,7 @@ export default function ProjectSection() {
           return (
             <div key={id}>
               <SlideUp offset="-300px 0px -300px 0px">
-                <div className="flex flex-col md:flex-row md:space-x-12 animate-slideUpCubiBezier animation-delay-1">
+                <div className="flex flex-col md:flex-row md:space-x-12 animate-slideUpCubiBezier animation-delay-1 ">
                   <div className="md:w-1/2 mt-8">
                     <Link href={item.link} target="_blank">
                       <Image
@@ -63,7 +63,7 @@ export default function ProjectSection() {
                   </div>
                   <div className="md:w-1/2 mt-12">
                     <h1 className="text-2xl font-bold mb-6">{item.name}</h1>
-                    <p className="text-lg leading-7 mb-4 text-neutral-600 dark:text-neutral-200">
+                    <p className="text-lg leading-7 mb-4 text-neutral-600 dark:text-neutral-100">
                       {item.description}
                     </p>
                     <div className="flex flex-row space-x-2 align-bottom">
