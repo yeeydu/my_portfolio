@@ -8,9 +8,9 @@ import {
 
 export default function Footer() {
   return (
-    <footer>
+    <footer className="dark:bg-stone-900">
       <hr className="w-full h-0.5 mx-auto mt-8 bg-neutral-200 border-0"></hr>
-      <div className="flex flex-col mx-20 p-4 text-center text-neutral-900 md:flex-row md:justify-between dark:bg-stone-900">
+      <div className="flex flex-col mx-20 p-4 text-center text-neutral-900 md:flex-row md:justify-between ">
         <div className="flex flex-row items-center justify-center space-x-1 text-neutral-500 dark:text-neutral-100 text-sm">
           © 2023 Yeeyson Duarte
         </div>
