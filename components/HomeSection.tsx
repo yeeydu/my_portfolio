@@ -26,7 +26,7 @@ export default function HomeSection() {
               <span className="text-teal-600 font-semibold ">
                 developer
               </span>{" "}
-              with knowledge web and mobile development. Love to learn more to
+              with knowledge in web and mobile development. Love to learn more to
               become good at what I do. 
             </p>
             <Link

@@ -42,9 +42,9 @@ export default function About() {
             </h1>
             <p>
               I started as a self-taught web developer with a strong desire for
-              innovative design while i was working with web content for
+              innovative and design while i was working with web content for
               WordPress sites and social networks. Video editing and many other
-              things that come throughout the way.
+              things that came throughout the way.
             </p>
             <br />
             <p>

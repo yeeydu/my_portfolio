@@ -14,7 +14,7 @@ const projects = [
     link: "https://yeeysonduarte-portfolio.vercel.app/",
   },
   {
-    name: "Andre Cristina",
+    name: "André Cristina",
     description: "A gardener in Algarve with a list of services for the community with over 35 years of experience.",
     image: "/andre.jpg",
     github: "https://github.com/yeeydu",
@@ -30,7 +30,7 @@ const projects = [
   {
     name: "My Course Final Project",
     description:
-      "This was my web & mobile course final project, it was a team work. This was a PHP, Bootstrap and Javascript made. Unfortunately the source code is private on github.",
+      "This was my web & mobile course final project, it was a team work. This was a PHP, Bootstrap and Javascript made. Unfortunately the source code is private in github for owner protection.",
     image: "/diogopinto.jpg",
     github: "https://github.com/yeeydu/",
     link: "https://www.diogopinto.pt/",

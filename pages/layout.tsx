@@ -1,11 +1,12 @@
 import Footer from "@component/components/Footer";
 import Navbar from "@component/components/Navbar";
-import Head from "./head";
+import Head from "./Head";
+
 
 export default function Layout({ children }: any) {
   return (
     <div >
-      <Head />
+      <Head/>
       <Navbar />
       <main>{children}</main>
       <Footer />
