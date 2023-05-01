@@ -18,6 +18,7 @@ const skills = [
   { skill: "WordPress", level: 3 },
   { skill: "React Native", level: 2 },
   { skill: "REST", level: 2 },
+  { skill: "MVC", level: 2 },
   { skill: ".Net", level: 1 },
   { skill: "C#", level: 1 },
   { skill: "PHP", level: 2 },
@@ -42,15 +43,19 @@ export default function About() {
             </h1>
             <p>
               I started as a self-taught web developer with a strong desire for
-              innovative and design while i was working with web content for
+              development and innovative design while I was working with web content for
               WordPress sites and social networks. Video editing and many other
               things that came throughout the way.
             </p>
             <br />
             <p>
               Getting to know much more of technology was my daily bread. I took
-              a web & Mobile course that boost my scatered knowledge more
+              a web & Mobile course that boost my scatered knowledge to more
               concistent and pratical.
+            </p>
+            <br />
+            <p>
+              Looking forward for more and best oportunities with development and work experience.
             </p>
           </div>
           <div className="md:w-1/2">
@@ -81,7 +86,7 @@ export default function About() {
               <span className=" bg-teal-300 rounded text-teal-300">[ ]  </span>
               {"  "}Intermediate{"  "}
               <span className=" bg-teal-100 rounded text-teal-100">[ ]  </span>
-              {"  "}Begginer{"  "}
+              {"  "}Begginer/Training Only {"  "}
             </p>
             <Image
               className="hidden md:block md:relative md:bottom-4 md:left-4 md:z-0 mt-4 animate-slideUpCubiBezier hover:translate-x-1 hover:drop-shadow-xl animation-delay-2 "

@@ -15,14 +15,14 @@ const projects = [
   },
   {
     name: "André Cristina",
-    description: "A gardener in Algarve with a list of services for the community with over 35 years of experience.",
+    description: "A gardener in Algarve with a list of services for the community with over 35 years of experience. CMS",
     image: "/andre.jpg",
     github: "https://github.com/yeeydu",
     link: "https://andrecristina.com/",
   },
   {
     name: "Email and SMS Manager",
-    description: "At my internship I made an Email and SMS Management and sending of notifications app with React and C#/.Net API. This the link to the React project code.",
+    description: "At my internship I made an Email and SMS Management and sending of notifications app with React and C#/.Net API also SQL database. This the link to the React project code.",
     image: "/notification.png",
     github: "https://github.com/yeeydu/Notifications-React-Project",
     link: "",
@@ -30,7 +30,7 @@ const projects = [
   {
     name: "My Course Final Project",
     description:
-      "This was my web & mobile course final project, it was a team work. This was a PHP, Bootstrap and Javascript made. Unfortunately the source code is private in github for owner protection.",
+      "This was my web & mobile course final project, it was a team work. This was a PHP, Bootstrap, mySQL and Javascript made. Unfortunately the source code is private in github for owner protection.",
     image: "/diogopinto.jpg",
     github: "https://github.com/yeeydu/",
     link: "https://www.diogopinto.pt/",
