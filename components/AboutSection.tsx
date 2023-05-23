@@ -43,9 +43,9 @@ export default function About() {
             </h1>
             <p>
               I started as a self-taught web developer with a strong desire for
-              development and innovative design while I was working with web content for
-              WordPress sites and social networks. Video editing and many other
-              things that came throughout the way.
+              development and innovative design while I was working with web
+              content for WordPress sites and social networks. Video editing and
+              many other things that came throughout the way.
             </p>
             <br />
             <p>
@@ -55,7 +55,8 @@ export default function About() {
             </p>
             <br />
             <p>
-              Looking forward for more and best oportunities with development and work experience.
+              Looking forward for more and best oportunities with development
+              and work experience.
             </p>
           </div>
           <div className="md:w-1/2">
@@ -81,11 +82,13 @@ export default function About() {
               })}
             </div>
             <p className="text-xs mt-3 md:text-left text-center">
-              <span className=" bg-emerald-400 rounded text-emerald-400">[ ]</span>
+              <span className=" bg-emerald-400 rounded text-emerald-400">
+                [ ]
+              </span>
               {"  "} Advanced{"  "}
-              <span className=" bg-teal-300 rounded text-teal-300">[ ]  </span>
+              <span className=" bg-teal-300 rounded text-teal-300">[ ] </span>
               {"  "}Intermediate{"  "}
-              <span className=" bg-teal-100 rounded text-teal-100">[ ]  </span>
+              <span className=" bg-teal-100 rounded text-teal-100">[ ] </span>
               {"  "}Begginer/Training Only {"  "}
             </p>
             <Image

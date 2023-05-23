@@ -37,13 +37,13 @@ const Navbar = () => {
       <div className="justify-between md:items-center md:flex">
         <div>
           <div className="flex items-center justify-between py-3 md:py-4 md:block">
-            <Link to="home">
               <div className="md:py-5 md:block ">
-                <h2 className="text-2xl font-bold text-neutral-900 dark:text-neutral-100 hover:text-teal-600">
+            <Link to="home">
+                <h2 className="text-2xl font-bold text-neutral-900 dark:text-neutral-100 hover:text-teal-600 cursor-pointer">
                   Yeeyson Duarte
                 </h2>
-              </div>
             </Link>
+              </div>
             <div className="md:hidden">
               <button
                 onClick={() => {
@@ -68,7 +68,7 @@ const Navbar = () => {
         <div>
           <div
             className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0
-            ${ navbar ? "block" : "hidden" } 
+            ${navbar ? "block" : "hidden"} 
             `}
           >
             <div className="md:flex md:space-x-6 space-y-8 md:space-y-0">
@@ -85,12 +85,12 @@ const Navbar = () => {
                     smooth={true}
                     offset={-100}
                     duration={500}
-                    onClick={() => setNavabar(!navbar)} 
+                    onClick={() => setNavabar(!navbar)}
                   >
                     {item.label}
                   </Link>
                 );
-              })} 
+              })}
               {currentTheme === "dark" ? (
                 <button
                   onClick={() => setTheme("light")}

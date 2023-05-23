@@ -20,14 +20,14 @@ export default function HomeSection() {
             />
           </div>
           <div className="md:mt-2 md:w-3/5">
-            <h1 className="font-bold text-4xl mt-6 md:text-5xl">Hi, I am Yeeyson</h1>
+            <h1 className="font-bold text-4xl mt-6 md:text-5xl">
+              Hi, I am Yeeyson
+            </h1>
             <p className="text-lg mt-4 mb-6 md:text-2xl">
               I am a{" "}
-              <span className="text-teal-600 font-semibold ">
-                developer
-              </span>{" "}
-              with knowledge in web and mobile development. Love to learn more to
-              become good at what I do. 
+              <span className="text-teal-600 font-semibold ">developer</span>{" "}
+              with knowledge in web and mobile development. Love to learn more
+              to become good at what I do.
             </p>
             <Link
               to="projects"
@@ -43,7 +43,8 @@ export default function HomeSection() {
           </div>
         </div>
         <div>
-          <Link className=" flex flex-row justify-center"
+          <Link
+            className=" flex flex-row justify-center"
             to="about"
             activeClass="active"
             spy={true}
@@ -51,7 +52,7 @@ export default function HomeSection() {
             offset={-100}
             duration={500}
           >
-            <HiArrowDown size={30} className="animate-bounce"/>
+            <HiArrowDown size={30} className="animate-bounce" />
           </Link>
         </div>
       </section>

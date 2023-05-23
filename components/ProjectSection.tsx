@@ -8,21 +8,24 @@ import Link from "next/link";
 const projects = [
   {
     name: "My Portfolio",
-    description: "This is my recent project; my own portfolio created with Next.js, Tailwind in  Vercel platform",
+    description:
+      "This is my recent project; my own portfolio created with Next.js, Tailwind in  Vercel platform",
     image: "/yeeyson-portfolio.png",
     github: "https://github.com/yeeydu/my_portfolio",
     link: "https://yeeysonduarte-portfolio.vercel.app/",
   },
   {
     name: "André Cristina",
-    description: "A gardener in Algarve with a list of services for the community with over 35 years of experience. CMS",
+    description:
+      "A gardener in Algarve with a list of services for the community with over 35 years of experience. CMS",
     image: "/andre.jpg",
     github: "https://github.com/yeeydu",
     link: "https://andrecristina.com/",
   },
   {
     name: "Email and SMS Manager",
-    description: "At my internship I made an Email and SMS Management and sending of notifications app with React and C#/.Net API also SQL database. This the link to the React project code.",
+    description:
+      "At my internship I made an Email and SMS Management and sending of notifications app with React and C#/.Net API also SQL database. This the link to the React project code.",
     image: "/notification.png",
     github: "https://github.com/yeeydu/Notifications-React-Project",
     link: "",
