@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 import SlideUp from "./SlideUp";
 
@@ -41,6 +41,8 @@ const projects = [
 ];
 
 export default function ProjectSection() {
+  const [setProjects] = useState(projects);
+
   return (
     <section id="projects">
       <h1 className="text-center font-bold text-4xl mb-10">

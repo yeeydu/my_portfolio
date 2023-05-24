@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 
 //Level 1-3 begginer to advanced
@@ -29,6 +29,9 @@ const skills = [
 ];
 
 export default function About() {
+
+  const [ setSkills] = useState(skills);
+
   return (
     <section id="about">
       <div className="my-12 pb-12 md:pt-16 md:pb-48">
