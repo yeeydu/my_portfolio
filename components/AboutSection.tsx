@@ -9,7 +9,7 @@ const skills = [
   { skill: "CSS", level: 3 },
   { skill: "SQL", level: 2 },
   { skill: "MySQL", level: 2 },
-  { skill: "ReactJS", level: 3 },
+  { skill: "ReactJS", level: 3 }
 ];
 */
 export default function About() {
