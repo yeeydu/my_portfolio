@@ -86,5 +86,9 @@
     {
         "skill": "Android Studio",
         "level": 1
+    },
+    {
+        "skill": "Python",
+        "level": 1
     }
 ]
