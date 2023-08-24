@@ -4,10 +4,10 @@ export default function head() {
   return (
     <>
       <head>
-        <title>Yeeyson Duarte</title>
+        <title>Title</title>
         <meta property="og:title" content="portefolio" key="title" />
         <meta
-          name="This is my developer portfolio, please fill free to see and contact me"
+          name="This is my developer portfolio"
           content="Nextjs app"
         />
         <link
@@ -17,7 +17,7 @@ export default function head() {
         <meta charSet="UTF-8" />
         <meta name="description" content="web developer portefolio" />
         <meta name="keywords" content="HTML, CSS, React, Front-end, JavaScript, NextJS" />
-        <meta name="author" content="Yeeyson Duarte" />
+        <meta name="author" content="Name" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </head>
     </>
