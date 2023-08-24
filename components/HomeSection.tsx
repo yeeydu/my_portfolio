@@ -9,25 +9,24 @@ export default function HomeSection() {
     <>
       <section id="home">
         <div className="flex flex-col text-center items-center justify-center my-10 py-16 sm:py-32 md:flex-row md:space-x-4 md:text-left md:py-52">
-          <div className="md:w-1/2 md:mt-4  ">
+          <div className="md:w-3/12 md:mt-4  ">
             <Image
-              src="/yeeyson.jpg"
+              src="/developer.png"
               alt={""}
               width={200}
               height={200}
               priority
-              className="rounded-e-full shadow-2xl hover:rounded-full hover:shadow-teal-600 hover:-translate-y-1 md:hover:translate-x-6 hover:scale-106 duration-500 hover:animate-pulse"
+              className=" rounded shadow-2xl hover:rounded-full hover:shadow-teal-600 hover:-translate-y-1 md:hover:translate-x-6 hover:scale-106 duration-500  "
             />
           </div>
           <div className="md:mt-2 md:w-3/5">
             <h1 className="font-bold text-4xl mt-6 md:text-5xl">
-              Hi, I am Yeeyson
+              Hi, I am 'Name'
             </h1>
             <p className="text-lg mt-4 mb-6 md:text-2xl">
-              I am a{" "}
+              I am a web{" "}
               <span className="text-teal-600 font-semibold ">developer</span>{" "}
-              with knowledge in web and mobile development. Love to learn more
-              to become good at what I do.
+               Experienced in languages like Javascript, python, C and HTML, CSS 
             </p>
             <Link
               to="projects"

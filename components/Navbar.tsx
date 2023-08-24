@@ -40,7 +40,7 @@ const Navbar = () => {
               <div className="md:py-5 md:block ">
             <Link to="home">
                 <h2 className="text-2xl font-bold text-neutral-900 dark:text-neutral-100 hover:text-teal-600 cursor-pointer">
-                  Yeeyson Duarte
+                  My Portfolio
                 </h2>
             </Link>
               </div>

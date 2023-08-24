@@ -6,7 +6,7 @@ export default function Layout({ children }: any) {
   return (
     <div>
       <Head>
-        <title>Yeeyson Duarte</title>
+        <title>Name</title>
         <meta content="width=device-width, initial-scale=1" name="viewport" />
         <meta property="og:title" content="Yeeyson Duarte" key="title" />
         <meta

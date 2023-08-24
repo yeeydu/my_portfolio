@@ -28,22 +28,13 @@ export default function About() {
               Get to know me
             </h1>
             <p>
-              I started as a self-taught web developer with a strong desire for
-              development and innovative design while I was working with web
-              content for WordPress sites and social networks. Video editing and
-              many other things that came throughout the way.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni ullam a unde non illo quibusdam odio provident amet fugit, numquam nesciunt odit tempore? Delectus, ut dolorem! Tempore minima sed quidem.
             </p>
             <br />
             <p>
-              Getting to know much more of technology was my daily bread. I took
-              a web & Mobile course that boost my scatered knowledge to more
-              concistent and pratical.
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio, eius! Maxime iste quidem quaerat recusandae totam autem accusantium odit, consectetur tenetur nostrum aliquam officia similique commodi cupiditate eveniet tempore veniam?
             </p>
             <br />
-            <p>
-              Looking forward for more and best oportunities with development
-              and work experience.
-            </p>
           </div>
           <div className="md:w-1/2">
             <h1 className="text-center font-bold text-2xl mb-6 md:text-left">
